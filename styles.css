@@ -1,0 +1,104 @@
+body{
+	font-family:Arial;
+	padding:5px;
+}
+header{
+	background:#68A694;
+	color:white;
+	padding:5px;
+	text-align:center;
+}
+main{
+	background:#ABBF80;
+	padding:5px;
+}
+footer{
+	background:#68A694;
+	text-align:center;
+	color:darkslategrey;
+	padding:5px;
+}
+nav{
+	background:#68A694;
+	padding:5px;
+	
+}
+#main-nav ul{
+	list-style-type:none;
+	padding-left:0;
+	padding-right:4px;
+}
+#main-nav a{
+	text-decoration:none;
+	background:#F2B885;
+	color:darkslategray;
+	padding:3px;
+	display:block;
+	width:100%;
+}
+#main-nav li{
+	margin:3px;
+}
+#main-nav a:hover{
+	background:#BF613F;
+	color:white;
+}
+
+	
+#content h2, p{
+	text-align:center;
+	color:darkslategray;
+}
+.slideshow{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	box-shadow: 5px 5px #68A694;
+	/*1000px by 420px*/
+}
+
+
+#contact p{
+	text-align:left;
+}
+#contact {
+	color:darkslategray;
+}
+#contact input{
+	width:300px;
+}
+
+#result p{
+	text-align:left;
+}
+
+
+@media(min-width: 720px) {
+	body {
+		background:white;
+	}
+	#main-nav li, #main-nav a{
+		display:inline;
+		margin:0px;
+	}
+	nav{
+		text-align:center;
+		padding-left:0;
+	}
+	#content, #contact{
+		width:80%;
+		margin:auto;
+	}
+}
+
+
+/*Java Stuff*/
+.hidden{
+	display:none;
+}
+
+#submit{
+	padding-left:40px;
+	padding-right:40px;
+}
